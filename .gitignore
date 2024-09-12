@@ -1,0 +1,49 @@
+# Ignore Composer dependencies (Laravel)
+vendor/
+
+# Laravel environment files
+.env
+.env.backup
+.env.production
+.env.development
+.env.testing
+
+# Laravel log files
+/storage/logs/*.log
+/storage/debugbar/*
+
+# Ignore compiled assets (Laravel)
+public/storage
+public/hot
+/public/css/
+/public/js/
+/public/mix-manifest.json
+/public/hot
+
+# Ignore Laravel cache files
+/bootstrap/cache/*.php
+
+# Ignore node_modules for frontend (React)
+ticket-frontend/node_modules/
+ticket-frontend/build/
+ticket-frontend/.env
+
+# NPM logs and temporary files
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Mac system files
+.DS_Store
+
+# Thumbnails
+._*
+
+# IDE files
+.idea/
+.vscode/
+
+# Ignore other system files
+*.swp
+*.swo
+*~
