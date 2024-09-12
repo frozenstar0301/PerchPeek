@@ -87,7 +87,7 @@ Ensure you have PHP, Composer, and Laravel installed.
    ```
 
    ```
-   You can double click `Backend.bat` in the `Testing` Folder after setting `.env` file.
+   You can double click `Backend.bat` in the `Testing` Folder after setting `.env` file and composer installing.
    ```
 
    ![Backend Running](./Images/Backend.png)
