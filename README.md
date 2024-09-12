@@ -69,6 +69,8 @@ Ensure you have PHP, Composer, and Laravel installed.
    ```bash
    cp .env.example .env
    ```
+
+   You should change `PUSHER_APP_ID`, `PUSHER_APP_KEY`, `PUSHER_APP_SECRET` and `PUSHER_APP_CLUSTER` to your own APP Information.
 5. Set up the database in `.env` and run the migrations:
    ```bash
    php artisan migrate
@@ -89,9 +91,6 @@ Ensure you have PHP, Composer, and Laravel installed.
    ```
    You can double click `Backend.bat` in the `Testing` Folder after setting `.env` file and composer installing.
    ```
-
-   You should change `PUSHER_APP_ID`, `PUSHER_APP_KEY`, `PUSHER_APP_SECRET` and `PUSHER_APP_CLUSTER` to your own APP Information.
-
    ![Backend Running](./Images/Backend.png)
 
 ### Frontend (React + Redux)
