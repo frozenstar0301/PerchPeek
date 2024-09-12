@@ -90,6 +90,8 @@ Ensure you have PHP, Composer, and Laravel installed.
    You can double click `Backend.bat` in the `Testing` Folder after setting `.env` file and composer installing.
    ```
 
+   You should change `PUSHER_APP_ID`, `PUSHER_APP_KEY`, `PUSHER_APP_SECRET` and `PUSHER_APP_CLUSTER` to your own APP Information.
+
    ![Backend Running](./Images/Backend.png)
 
 ### Frontend (React + Redux)
@@ -108,7 +110,10 @@ Ensure you have Node.js and npm/yarn installed.
    ```bash
    cp .env.example .env
    ```
-4. Start the development server:
+
+   You should change `REACT_APP_PUSHER_APP_KEY` and `REACT_APP_PUSHER_APP_CLUSTER` to your own APP Information as the same as the backend env variable.
+   
+5. Start the development server:
    ```bash
    npm start
    ```
