@@ -167,6 +167,10 @@ The frontend will be available at `http://localhost:3000`.
    You can test the Laravel console commands by running the following:
 
    ```bash
+   php artisan queue:work
+   ```
+   
+   ```bash
    php artisan ticket:create "Subject" "Content" 1
    ```
    
